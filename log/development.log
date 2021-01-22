@@ -4325,3 +4325,12 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 29ms (Views: 24.8ms | ActiveRecord: 1.6ms)
 
 
+Started GET "/posts/new" for 142.255.123.99 at 2021-01-22 10:24:52 +0000
+Cannot render console from 142.255.123.99! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (1.6ms)
+  Rendered posts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
